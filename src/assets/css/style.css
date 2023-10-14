@@ -50914,6 +50914,10 @@ a.text-light:focus, a.text-light:hover {
 .owl-nav{
     display: block;
 }
+
+.owl-nav.disabled{
+  display: block !important;
+}
  
 div.owl-nav  div.owl-prev ,  div.owl-nav  div.owl-next{
     user-select: none;
