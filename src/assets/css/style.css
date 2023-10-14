@@ -50921,13 +50921,15 @@ a.text-light:focus, a.text-light:hover {
  
 div.owl-nav  div.owl-prev ,  div.owl-nav  div.owl-next{
     user-select: none;
-    opacity: 7 !important;
+    opacity: 0.7 !important;
     width: 40px !important;
     height: 40px !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
+    border: 2px solid #fff !important;
     border-radius: 50% !important;
-    font-size: 30px !important;
+    font-size: 25px !important;
     padding:0px !important;
+    margin: 0px !important;
  }
