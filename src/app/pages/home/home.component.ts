@@ -14,12 +14,11 @@ export class HomeComponent {
     pullDrag: true,
     dots: false,
     navSpeed: 700,
-    nav: false,
-    navText: ['', ''],
-    // [
-    //   '<button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button>',
-    //   '<button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button>',
-    // ],
+    nav: true,
+    navText: [
+      '<button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button>',
+      '<button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button>',
+    ],
     responsive: {
       0: {
         items: 1,
